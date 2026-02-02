@@ -87,13 +87,11 @@ Inspired by MeanFlow, we propose MeanCache. Compared to unstable instantaneous v
 
 
 ## Latest News
-- [2025/01/29]  Support [**Qwen-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4QwenImage) and Inference Code Released !  
+- [2025/02/02]  Support [**Qwen-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4QwenImage) and Inference Code Released !  
 
 
 
-## 🚀 MeanCache vs. LeMiCa: Speedup Comparison
-
-
+## 🚀 MeanCache vs. LeMiCa
 
 **Baseline Latency (Original Qwen-Image-2512): 32.8s**
 
