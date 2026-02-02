@@ -49,7 +49,9 @@
 
 <div class="is-size-5 publication-authors" align="center">
   <span class="author-block"><sup>1</sup>Data Science & Artificial Intelligence Research Institute, China Unicom,</span>
+   <br>
   <span class="author-block"><sup>2</sup>Unicom Data Intelligence, China Unicom,</span>
+   <br>
   <span class="author-block"><sup>3</sup>National Key Laboratory for Novel Software Technology, Nanjing University</span>
 </div>
 
