@@ -19,6 +19,7 @@
   <span class="author-block">
     <a href="https://github.com/kabutohui" target="_blank">Qiang Hui</a><sup>1,2</sup>,
   </span>
+   <br>
   <span class="author-block">
     <a href="https://github.com/markyouyuren" target="_blank">Yuren You</a><sup>2</sup>,
   </span>
