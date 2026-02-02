@@ -90,7 +90,7 @@ Inspired by MeanFlow, we propose MeanCache. Compared to unstable instantaneous v
 
 
 ## Latest News
-- [2025/02/02]  Support [**Qwen-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4QwenImage) and Inference Code Released !  
+- [2025/02/02]  Support [**Qwen-Image**](https://github.com/UnicomAI/MeanCache/tree/main/MeanCache4Qwen-Image) and Inference Code Released !  
 
 
 
