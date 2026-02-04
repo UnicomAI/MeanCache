@@ -22,10 +22,10 @@ Please refer to the original [Z-Image]([Z-Image](https://github.com/Tongyi-MAI/Z
 python MC_zimage.py
 
 # MeanCache: Accelerated Inference
-python MC_zimage.py.py --cache 25
-python MC_zimage.py.py --cache 20
-python MC_zimage.py.py --cache 15
-python MC_zimage.py.py --cache 13
+python MC_zimage.py.py --cache-jvp 25
+python MC_zimage.py.py --cache-jvp 20
+python MC_zimage.py.py --cache-jvp 15
+python MC_zimage.py.py --cache-jvp 13
 ```
 
 
