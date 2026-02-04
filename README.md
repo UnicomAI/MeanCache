@@ -110,8 +110,6 @@ This benchmark evaluates the performance of **MeanCache** against **LeMiCa** usi
 | **$B=10$** | LeMiCa | 10.41 s | 3.15x | - |
 | | **MeanCache** | **6.95 s** | **4.72x** | **33.2%** |
 
----
-
 ### 🎨 Quality 
 
 | Constraint | Method | PSNR (↑) | SSIM (↑) | LPIPS (↓) |
