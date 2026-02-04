@@ -95,11 +95,12 @@ Inspired by MeanFlow, we propose MeanCache. Compared to unstable instantaneous v
 
 
 
-##  MeanCache vs. LeMiCa
+##  MeanCache vs. LeMiCa 
+
+This benchmark evaluates the performance of **MeanCache** against **LeMiCa** using the **Qwen-Image-2512** model as the base.
 
 ### 🚀 Efficiency 
-
-
+**Baseline Latency (Original Qwen-Image-2512): 32.8s**
 | Constraint | Method | Latency | Speedup | Time Reduction |
 |:---:|:---|:---:|:---:|:---:|
 | **$B=25$** | LeMiCa | 18.83 s | 1.74x | - |
@@ -109,7 +110,7 @@ Inspired by MeanFlow, we propose MeanCache. Compared to unstable instantaneous v
 | **$B=10$** | LeMiCa | 10.41 s | 3.15x | - |
 | | **MeanCache** | **6.95 s** | **4.72x** | **33.2%** |
 
-> **Note:** Baseline Latency (Original Qwen-Image-2512): 32.8s
+---
 
 ### 🎨 Quality 
 
