@@ -110,6 +110,7 @@ This benchmark evaluates the performance of **MeanCache** against **LeMiCa** usi
 | **$B=10$** | LeMiCa | 10.41 s | 3.15x | - |
 | | **MeanCache** | **6.95 s** | **4.72x** | **33.2%** |
 
+
 ### 🎨 Quality 
 
 | Constraint | Method | PSNR (↑) | SSIM (↑) | LPIPS (↓) |
@@ -126,17 +127,10 @@ This benchmark evaluates the performance of **MeanCache** against **LeMiCa** usi
 
 ### Z-Image 
 
-<!-- | Method   | Z-Image (Baseline) | MeanCache(B=25) | MeanCache(B=20) | MeanCache(B=15) | MeanCache(B=13) |
+| Method   | Z-Image | MeanCache(B=25) | MeanCache(B=20) | MeanCache(B=15) | MeanCache(B=13) |
 |:-------:|:-------:|:-----------:|:-------------:|:-----------:|:-----------:|
 | **Latency** | 18.07 s | 9.15 s | 7.36 s | 5.58 s | 4.85 s |
-| **T2I** | <img width="160" alt="Z-Image" src="https://github.com/user-attachments/assets/6f3b7858-f0e7-41f5-86e2-239a8e281215" /> | <img width="160" alt="Meancache_b25" src="https://github.com/user-attachments/assets/85a5211d-358a-462f-a669-cce31f3660ce" /> | <img width="160" alt="Meancache_b20" src="https://github.com/user-attachments/assets/146f4070-2a44-4635-b9b9-257e3e157c26" /> | <img width="160" alt="Meancache_b15" src="https://github.com/user-attachments/assets/51581088-60ee-40ec-ac26-48621c3ab0a7" /> | <img width="160" alt="Meancache_b13" src="https://github.com/user-attachments/assets/da1a649f-93a6-43de-bd6e-b8386bd0467e" /> | -->
-
-
-| Method | Z-Image (Baseline) | MeanCache(B=25) | MeanCache(B=20) | MeanCache(B=15) | MeanCache(B=13) |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| **Latency** | 18.07 s | 9.15 s | 7.36 s | 5.58 s | 4.85 s |
-| **T2I** | <img src="https://github.com/user-attachments/assets/6f3b7858-f0e7-41f5-86e2-239a8e281215" width="160" height="240" style="object-fit: cover;"> | <img src="https://github.com/user-attachments/assets/85a5211d-358a-462f-a669-cce31f3660ce" width="160" height="240" style="object-fit: cover;"> | <img src="https://github.com/user-attachments/assets/146f4070-2a44-4635-b9b9-257e3e157c26" width="160" height="240" style="object-fit: cover;"> | <img src="https://github.com/user-attachments/assets/51581088-60ee-40ec-ac26-48621c3ab0a7" width="160" height="240" style="object-fit: cover;"> | <img src="https://github.com/user-attachments/assets/da1a649f-93a6-43de-bd6e-b8386bd0467e" width="160" height="240" style="object-fit: cover;"> |
-
+| **T2I** | <img width="160" alt="Z-Image" src="https://github.com/user-attachments/assets/6f3b7858-f0e7-41f5-86e2-239a8e281215" /> | <img width="160" alt="Meancache_b25" src="https://github.com/user-attachments/assets/85a5211d-358a-462f-a669-cce31f3660ce" /> | <img width="160" alt="Meancache_b20" src="https://github.com/user-attachments/assets/146f4070-2a44-4635-b9b9-257e3e157c26" /> | <img width="160" alt="Meancache_b15" src="https://github.com/user-attachments/assets/51581088-60ee-40ec-ac26-48621c3ab0a7" /> | <img width="160" alt="Meancache_b13" src="https://github.com/user-attachments/assets/da1a649f-93a6-43de-bd6e-b8386bd0467e" /> |
 
 ### Qwen-Image-2512
 
