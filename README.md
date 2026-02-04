@@ -90,13 +90,15 @@ Inspired by MeanFlow, we propose MeanCache. Compared to unstable instantaneous v
 
 
 ## Latest News
+- [2025/02/04]  Support [**Z-Image**](https://github.com/UnicomAI/MeanCache/tree/main/MeanCache4Z-Image) and released the MeanCache vs. LeMiCa comparative study.
 - [2025/02/02]  Support [**Qwen-Image**](https://github.com/UnicomAI/MeanCache/tree/main/MeanCache4Qwen-Image) and Inference Code Released !  
 
 
 
-## 🚀 MeanCache vs. LeMiCa
+##  MeanCache vs. LeMiCa
 
-**Baseline Latency (Original Qwen-Image-2512): 32.8s**
+### 🚀 Efficiency 
+
 
 | Constraint | Method | Latency | Speedup | Time Reduction |
 |:---:|:---|:---:|:---:|:---:|
@@ -107,9 +109,28 @@ Inspired by MeanFlow, we propose MeanCache. Compared to unstable instantaneous v
 | **$B=10$** | LeMiCa | 10.41 s | 3.15x | - |
 | | **MeanCache** | **6.95 s** | **4.72x** | **33.2%** |
 
-> **Note:** Under identical caching constraints ($B$), **MeanCache** consistently delivers superior latency reduction compared to LeMiCa. Especially in high-acceleration settings (e.g., $B=10$), MeanCache achieves an additional **33.2% time reduction** beyond LeMiCa's performance.
+> **Note:** Baseline Latency (Original Qwen-Image-2512): 32.8s
+
+### 🎨 Quality 
+
+| Constraint | Method | PSNR (↑) | SSIM (↑) | LPIPS (↓) |
+|:---:|:---|:---:|:---:|:---:|
+| **$B=25$** | LeMiCa | 29.20 | **0.945** | 0.065 |
+| | **MeanCache** | **29.46** | 0.944 | **0.057** |
+| **$B=17$** | LeMiCa | 24.31 | 0.835 | 0.176 |
+| | **MeanCache** | **26.49** | **0.907** | **0.104** |
+| **$B=10$** | LeMiCa | 17.80 | 0.637 | 0.368 |
+| | **MeanCache** | **19.44** | **0.767** | **0.237** |
+
 
 ##  Demo
+
+### Z-Image 
+
+| Method   | Z-Image (Baseline) | MeanCache(B=25) | MeanCache(B=20) | MeanCache(B=15) | MeanCache(B=13) |
+|:-------:|:-------:|:-----------:|:-------------:|:-----------:|:-----------:|
+| **Latency** | 18.07 s | 9.15 s | 7.36 s | 5.58 s | 4.85 s |
+| **T2I** | <img width="160" alt="Z-Image" src="https://github.com/user-attachments/assets/6f3b7858-f0e7-41f5-86e2-239a8e281215" /> | <img width="160" alt="Meancache_b25" src="https://github.com/user-attachments/assets/85a5211d-358a-462f-a669-cce31f3660ce" /> | <img width="160" alt="Meancache_b20" src="https://github.com/user-attachments/assets/146f4070-2a44-4635-b9b9-257e3e157c26" /> | <img width="160" alt="Meancache_b15" src="https://github.com/user-attachments/assets/51581088-60ee-40ec-ac26-48621c3ab0a7" /> | <img width="160" alt="Meancache_b13" src="https://github.com/user-attachments/assets/da1a649f-93a6-43de-bd6e-b8386bd0467e" /> |
 
 ### Qwen-Image-2512
 
@@ -124,6 +145,9 @@ Inspired by MeanFlow, we propose MeanCache. Compared to unstable instantaneous v
 |:-------:|:-------:|:-----------:|:-------------:|:-----------:|
 | **Latency** | 33.13 s  | 17.04 s      | 11.63 s        | 6.92 s      |
 | **T2I** | <img width="160" alt="Qwen-Image" src="https://github.com/user-attachments/assets/91e556cf-438f-43e5-a825-5c3a0980df17" /> | <img width="160" alt="Meancache_b25" src="https://github.com/user-attachments/assets/1a5aba9d-650c-4d4e-a588-c1fdd124aa30"  /> | <img width="160" alt="Meancache_b17" src="https://github.com/user-attachments/assets/9c854138-078d-4c19-87f7-e7e5221fac43" /> | <img width="160" alt="Meancache_b10" src="https://github.com/user-attachments/assets/fd1cb552-ec3e-47fb-88ed-9a914e6b0a22"/> |
+
+
+
 
 
 ## License
