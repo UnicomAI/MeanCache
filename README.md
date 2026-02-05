@@ -90,7 +90,7 @@ Inspired by MeanFlow, we propose MeanCache. Compared to unstable instantaneous v
 
 
 ## Latest News
-- [2026/02/05] 🚀 Support [**ComfyUI-MeanCache-Z**](https://github.com/facok/comfyui-meancache-z) with dynamic strategy, thanks [**@facok**](https://github.com/facok)!
+- [2026/02/05]  Community Contribution: [**ComfyUI-MeanCache-Z**](https://github.com/facok/comfyui-meancache-z) is now available! thanks to [**@facok**](https://github.com/facok)!
 - [2025/02/04]  Support [**Z-Image**](https://github.com/UnicomAI/MeanCache/tree/main/MeanCache4Z-Image) and released the **MeanCache vs. LeMiCa** comparative study.
 - [2025/02/02]  Support [**Qwen-Image**](https://github.com/UnicomAI/MeanCache/tree/main/MeanCache4Qwen-Image) and Inference Code Released !  
 
